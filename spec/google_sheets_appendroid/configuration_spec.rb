@@ -13,8 +13,15 @@ describe GoogleSheetsAppendroid do
     end
 
     it 'should have a scope for spreadsheets' do
-      expect(described_class.configuration.scopes).to include(
-        'https://www.googleapis.com/auth/spreadsheets')
+      expect(described_class.configuration.scopes)
+        .to include('https://www.googleapis.com/auth/spreadsheets')
+    end
+
+    it 'should have spreadsheet id string' do
+      expect(described_class.configuration.google_sheet_id)
+        .to be_instance_of(String)
+
+      expect(described_class.configuration.google_sheet_id).to eq('12345')
     end
   end
 end
