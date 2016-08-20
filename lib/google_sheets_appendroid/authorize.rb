@@ -1,3 +1,4 @@
+require 'googleauth'
 module GoogleSheetsAppendroid
   class Authorize
 

@@ -4,7 +4,7 @@ describe GoogleSheetsAppendroid do
   context 'configured with a config block' do
     before do
       GoogleSheetsAppendroid.configure do |config| 
-        config.google_sheet_id = '12345'
+        config.sheet_id = '12345'
       end
     end
 
@@ -18,10 +18,10 @@ describe GoogleSheetsAppendroid do
     end
 
     it 'should have spreadsheet id string' do
-      expect(described_class.configuration.google_sheet_id)
+      expect(described_class.configuration.sheet_id)
         .to be_instance_of(String)
 
-      expect(described_class.configuration.google_sheet_id).to eq('12345')
+      expect(described_class.configuration.sheet_id).to eq('12345')
     end
   end
 end

@@ -1,6 +1,5 @@
 require 'spec_helper'
 require 'delegate'
-require 'pry'
 
 rows = [['one', 'two'], ['three', 'four']]
 

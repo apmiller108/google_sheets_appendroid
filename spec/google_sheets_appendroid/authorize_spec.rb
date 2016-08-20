@@ -6,7 +6,7 @@ describe GoogleSheetsAppendroid::Authorize do
 
     before do
       GoogleSheetsAppendroid.configure do |config| 
-        config.google_sheet_id = '12345'
+        config.sheet_id = '12345'
       end
     end
     
