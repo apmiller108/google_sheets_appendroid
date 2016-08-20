@@ -18,6 +18,23 @@ Or install it yourself as:
 
     $ gem install google_sheets_appendroid
 
+## Overview
+
+This gem uses the
+[google-auth-library-ruby](https://github.com/google/google-auth-library-ruby)
+in order to take advantage of the [Application Default
+Credentials](https://developers.google.com/identity/protocols/application-default-credentials).  This makes
+getting credentials for calling Google APIs quite simple.
+
+Also, this library is designed for use in server-to-server interactions and
+therefore requires a [Google Service
+Account](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
+Follow the instructions
+[here](https://developers.google.com/identity/protocols/OAuth2ServiceAccount)
+for setting one up.  It's easy.
+
+Lastly, the [google-auth-library-ruby](https://github.com/google/google-auth-library-ruby) requires that you set an environment variable `GOOGLE_APPLICATION_CREDENTIALS` that points to the location of your credentials file exported from your Google Service Account. You can read more about this [here](https://developers.google.com/identity/protocols/application-default-credentials)
+
 ## Usage
 
 TODO: Write usage instructions here
