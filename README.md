@@ -1,3 +1,5 @@
+[![Build
+Status](https://travis-ci.org/apmiller108/google_sheets_appendroid.svg?branch=master)](https://travis-ci.org/apmiller108/google_sheets_appendroid)
 # Google Sheets Appendroid
 
 Append rows to a Google Sheet spreadsheet.  
