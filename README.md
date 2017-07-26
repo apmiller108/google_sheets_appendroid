@@ -65,7 +65,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/google_sheets_appendroid.
+Bug reports and pull requests are welcome on GitHub at https://github.com/apmiller108/google_sheets_appendroid.
 
 
 ## License
